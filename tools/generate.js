@@ -422,40 +422,6 @@ const sources = [
     match: ["body", "[data-render-url]"],
     strict: true,
   },
-  {
-    name: "refined-github",
-    crx: "hlepfoohegkhhmjieoechaddaejaokhf",
-    prefix: `html.refined-github`,
-    match: ["html", "refined-github"],
-    contentScriptsOnly: true,
-  },
-  {
-    name: "zenhub",
-    crx: "ogcgkffhplmphkaahpmffcafajaocjbd",
-    prefix: `body.zh_logged_in`,
-    match: ["body", ".zh_logged_in"],
-  },
-  {
-    name: "github hovercard",
-    crx: "mmoahbbnojgkclgceahhakhnccimnplk",
-    prefix: `html.ghh-theme-classic`,
-    match: ["html", ".ghh-theme-"],
-  },
-  {
-    name: "gitako",
-    crx: "giljefjcheohhamkjphiebfjnlphnokk",
-    prefix: `body.gitako-ready`,
-    match: ["body", ".gitako-ready"],
-  },
-  {
-    name: "npmhub",
-    crx: "kbbbjimdjbjclaebffknlabpogocablj",
-  },
-  {
-    name: "notifications preview",
-    crx: "kgilejfahkjidpaclkepbdoeioeohfmj",
-    contentScriptsOnly: true,
-  },
 ];
 
 const ignoreSelectors = [
